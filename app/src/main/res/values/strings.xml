@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DownloadGate</string>
+    <string name="module_status_active">Active</string>
+    <string name="module_status_inactive">Inactive</string>
+    <string name="label_redirect_target">Redirect Target</string>
+    <string name="label_app_whitelist">App Whitelist</string>
+    <string name="label_intercept_log">Intercept Log</string>
+    <string name="label_test_intercept">Test Intercept</string>
+    <string name="hint_search_apps">Search installed apps...</string>
+    <string name="empty_log">No intercepts yet</string>
+    <string name="empty_log_sub">Enable the module and trigger a download to see logs here</string>
+    <string name="status_redirected">Redirected</string>
+    <string name="status_failed">Failed</string>
+    <string-array name="xposed_scope">
+        <item>android</item>
+    </string-array>
+</resources>

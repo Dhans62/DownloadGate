@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+*.DS_Store
+
+# Keystore — JANGAN pernah commit ini
+*.jks
+*.keystore
+*.p12
+
+# APK output
+*.apk
+*.aab
+
+# Secrets
+secrets.properties

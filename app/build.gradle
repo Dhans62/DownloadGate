@@ -17,8 +17,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            // Signing config diisi via GitHub Secrets di CI
-            // signingConfig signingConfigs.release
         }
         debug {
             debuggable true
@@ -38,9 +36,9 @@ android {
 }
 
 dependencies {
-    // LSPosed API — compileOnly agar tidak dibundel ke APK
-    compileOnly 'io.github.libxposed:api:1.0.0'
-    compileOnly 'io.github.libxposed:service:1.0.0'
+    // FIX: Menggunakan versi yang tersedia secara publik di Maven Central
+    compileOnly 'io.github.libxposed:api:1.1.0'
+    compileOnly 'io.github.libxposed:service:1.1.0'
 
     // AndroidX minimal untuk UI
     implementation 'androidx.appcompat:appcompat:1.7.0'
